@@ -1,0 +1,6 @@
+# Format: Label :: install_command
+Inkscape :: flatpak install -y flathub org.inkscape.Inkscape
+GIMP :: flatpak install -y flathub org.gimp.GIMP
+VS Code :: flatpak install -y flathub com.visualstudio.code
+Firefox :: sudo apt install -y firefox
+Brave :: sudo apt install -y brave-browser

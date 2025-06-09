@@ -1,0 +1,6 @@
+# Format: Label :: install_command
+xkill :: sudo apt install -y x11-utils
+Ulauncher :: sudo apt install -y ulauncher
+htop :: sudo apt install -y htop
+neofetch :: sudo apt install -y neofetch
+gnome-tweaks :: sudo apt install -y gnome-tweaks
