@@ -1,6 +1,6 @@
 # Format: Label :: install_command
 xkill :: sudo apt install -y x11-utils
-Ulauncher :: sudo apt install -y ulauncher
+Ulauncher :: sudo add-apt-repository universe -y && sudo add-apt-repository ppa:agornostal/ulauncher -y && sudo apt update && sudo apt install ulauncher
 htop :: sudo apt install -y htop
 neofetch :: sudo apt install -y neofetch
 gnome-tweaks :: sudo apt install -y gnome-tweaks
