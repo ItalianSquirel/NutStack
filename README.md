@@ -1,6 +1,6 @@
 # 🐿️ NUTSTACK
 
-**NUTSTACK** is a modular and interactive setup script to quickly install your favorite tools, apps, and configs on a fresh Linux machine — like a squirrel caching the essentials.
+**NUTSTACK** is a modular and interactive setup script to quickly install your favorite tools, apps, and configs on a fresh Linux machine, like a squirrel caching the essentials.
 
 ---
 
@@ -79,4 +79,4 @@ No need to touch any other script — it's all data-driven.
 
 ## 📖 License
 
-MIT — customize, extend, or remix as you like!
+MIT - customize, extend, or remix as you like!
