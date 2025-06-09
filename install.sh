@@ -15,6 +15,14 @@ if ! command -v gum &> /dev/null; then
   fi
 fi
 
+# Ensure Flatpak is installed
+if ! command -v flatpak &> /dev/null; then
+  echo "==> Flatpak not found. Installing..."
+  sudo apt update
+  sudo apt install -y flatpak
+  sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+fi
+
 # Clear old variables
 unset apps tools configs
 
@@ -53,3 +61,7 @@ gum confirm "Proceed?" && {
 
   [ "$configs" = "Yes" ] && ./installers/configs.sh
 }
+
+# Ensure all internal scripts are executable
+chmod +x ./presets/*.sh
+chmod +x ./installers/*.sh
