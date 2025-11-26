@@ -2,13 +2,10 @@
 Inkscape :: flatpak install -y flathub org.inkscape.Inkscape
 GIMP :: flatpak install -y flathub org.gimp.GIMP
 VSCode :: flatpak install -y flathub com.visualstudio.code
-Firefox :: sudo apt install -y firefox
-Brave :: sudo apt install -y brave-browser
 BambuStudio :: flatpak install -y flathub com.bambu.studio
 Steam :: flatpak install -y flathub com.valvesoftware.Steam
 OBS-Studio :: flatpak install -y flathub com.obsproject.Studio
 Spotify :: flatpak install -y flathub com.spotify.Client
-Discord :: flatpak install -y flathub com.discordapp.Discord
 VLC :: flatpak install -y flathub org.videolan.VLC
 ImageMagick :: sudo apt install -y imagemagick
 RPi-Imager :: sudo apt install -y rpi-imager
@@ -17,3 +14,8 @@ FileZilla :: sudo apt install -y filezilla
 Bottles :: flatpak install -y flathub com.usebottles.bottles
 Blender :: flatpak install -y flathub org.blender.Blender
 Notepadqq :: flatpak install -y flathub org.notepadqq.Notepadqq
+gparted :: sudo apt install -y gparted
+LocalSend :: flatpak run org.localsend.localsend_app
+RapidRaw :: flatpak run io.github.CyberTimon.RapidRAW
+GoofCord :: flatpak run io.github.milkshiift.GoofCord
+Waterfox :: flatpak install flathub net.waterfox.waterfox
