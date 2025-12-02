@@ -15,9 +15,9 @@ flatpak install -y flathub com.usebottles.bottles
 flatpak install -y flathub org.blender.Blender
 flatpak install -y flathub org.notepadqq.Notepadqq
 sudo apt install -y gparted
-flatpak run org.localsend.localsend_app
-flatpak run io.github.CyberTimon.RapidRAW
-flatpak run io.github.milkshiift.GoofCord
-flatpak install flathub net.waterfox.waterfox
+flatpak install -y org.localsend.localsend_app
+flatpak install -y io.github.CyberTimon.RapidRAW
+flatpak install -y io.github.milkshiift.GoofCord
+flatpak install -y flathub net.waterfox.waterfox
 
 echo "==> Quick Install Complete!"
