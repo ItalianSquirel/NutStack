@@ -18,8 +18,8 @@
 
 1. Extract the repo:
    ```bash
-   unzip bootstrap_clean.zip
-   cd bootstrap_clean
+   unzip NutStack-main.zip
+   cd NutStack-main
    ```
 
 2. Run the installer:
