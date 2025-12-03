@@ -26,7 +26,7 @@ fi
 # Clear old variables
 unset apps tools configs
 
-echo "==> Welcome to your Bootstrap Setup!"
+echo "==> Welcome to NutStack! Press the "x" key to select.
 mode=$(gum choose --header="Select setup mode:" "Quick Install" "Custom Install" "Exit")
 
 [ "$mode" = "Exit" ] && exit 0
